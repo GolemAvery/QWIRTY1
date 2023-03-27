@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+
+.sub-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #44b;  
+    }
+  
+  
+  
+  @media (min-width: 768px) {
+    .nav-list.full-width {
+      display: flex;
+    }
+  
+    .nav-list.short-width {
+      display: none;
+    }
+  }
+  
+  
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 16px;
+  
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 0.25em 0.5em;
+    border-right: 1px solid #ffffff;
+  }
+  
+  .nav-list a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .nav-list li:last-of-type a {
+    border-right: none;
+    text-decoration: none;
+  }
+  
+  .sub-nav {
+    display: flex;
+    background: #eee;
+    align-items: center;
+    padding: 1em;
+    border-right: 1px solid #44b;
+  }
+  
+  .search-form {
+    display: flex;
+    flex: 1;
+  }
+  
+  .search-form input {
+    padding: 0.25em 0.5em;
+    flex: 1;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #44b;
+  }
+  
+  .search-form button {
+    background-color: #44b;
+    color: white;
+    padding: 0.25em 0.5em;
+    border: none;
+  }
+  
+  .company-name {
+      font-size: 40px;
+      font-family: 'Cormorant Garamond', serif;
+      color: #44b;
+      font-weight: bold;
+      width: 1em;
+      margin-right: 120px;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  
+  
+  .credit-offer {
+    text-decoration: none;
+    color: #eee;
+    font-size: 16px;
+    background: #44b;
+    padding: .2em;
+    margin: 1em;
+  }
+  
+  .credit-offer:hover {
+    background: red;
+    box-shadow: 0 2px 5px -2px black;
+  }
